@@ -1,0 +1,278 @@
+
+.main{
+    height: 650px;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(/images/omar-rodriguez-XYuNwlYtfLI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgba(255, 166, 0, 0.782);
+    height: 70px;
+    border-bottom: 5px solid rgb(235, 12, 79);
+}
+.left{
+    padding-left: 30px;
+}
+.right ul li{
+    float:left;
+    padding-left: 24px;
+    padding-top: 20px;
+}
+.right ul li a{
+     text-decoration: none;
+     color: black;
+     font-size: 22px;
+}
+.right ul li a:hover{
+    text-transform: capitalize;
+    font-size: 25px;
+    border: 2px solid black;
+}
+.contact{
+    padding-right: 40px;
+}
+.quote{
+    padding-top: 200px;
+    font-size: 55px;
+}
+.line{
+    font-size: 25px;
+}
+.quote,.line{
+    color: rgb(4, 255, 134);
+    text-align: center;
+   
+  }
+.city{
+    width: 250px;
+    height: 40px;
+}
+.button{
+    background-color:rgb(255, 166, 0) ;
+    width: 140px;
+    height: 40px;
+    border-radius: 9px;
+}
+.button:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.city:hover{
+    border: 2px solid white;
+    background-color: rgb(255, 166, 0);
+}
+/*-------------Venue-----------*/
+ .venue .h1{
+font-size: 30px;
+text-align: center;
+color: red;
+}
+.venue span{
+   color:rgb(3, 3, 3) ;
+   font-size: 40px;
+}
+.venue .venue-list{
+display: flex;
+flex: wrap;
+justify-content: center;
+}
+.venue-box{
+width: 600px;
+height: 400px;
+position: relative;
+margin: 20px;
+}
+.venue-box img{
+width: 600px;
+height: 400px;
+object-fit: cover;
+border-radius: 30px;
+}
+.venue-box .info{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(36, 34, 34, 0.436);
+    width:600px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    opacity: 0;
+    border-radius: 30px;
+}
+.info:hover{
+opacity: 2;
+}
+.btn{
+color: #fff;
+background: rgb(236, 68, 90);
+border: 1px solid black;
+border-radius: 9px;
+width: 100px;
+height: 40px;
+font-size: 1rem;
+cursor: pointer;
+} 
+/*-----------------destination Hall----------------*/
+.dwh{
+text-align: center;
+font-size: 1.5rem;
+}
+.des-span{
+color: red;
+}
+#des-wed-hall{
+margin-left: 50px;
+}
+.des-hall{
+width: 290px;
+height: 280px;
+float: left;
+margin: 15px;
+border: 2px solid rgb(236, 68, 90);
+border-radius: 8px;
+box-shadow: 0 .2rem .5rem rgb(236, 68, 90);
+}
+.des-hall img{
+width: 290px;
+height: 200px;
+}
+.des-hall h2{
+text-align: center;
+color: white;
+background-color: black;
+}
+.des-hall:hover{
+transform: rotate(5deg);
+}
+.destination-hall{
+width: 590px;
+height: 280px;
+border: 2px solid black;
+margin: 20px;
+clear: both;
+float:left;
+margin-left: 50px;
+border: 2px solid rgb(236, 68, 90);
+border-radius: 8px;
+box-shadow: 0 .2rem .5rem rgb(236, 68, 90);
+}
+.destination-hall img{
+width: 590px;
+height: 200px;
+}
+.destination-hall-left{
+width: 590px;
+height: 280px;
+border: 2px solid black;
+margin: 20px;
+float:right;
+margin-right: 25px;
+border: 2px solid rgb(236, 68, 90);
+border-radius: 8px;
+box-shadow: 0 .2rem .5rem rgb(236, 68, 90);
+}
+.destination-hall-left img{
+width: 590px;
+height: 200px;
+}
+.destination-hall h2, .destination-hall-left h2{
+color: white;
+background-color: black;
+text-align: center;
+}
+.rate{
+background-color: #eed10f;
+width: 50px;
+}
+
+.destination-hall-left:hover{
+transform: rotate(10deg);
+}
+.destination-hall:hover{
+transform: rotate(10deg);
+}
+/*---------------footer---------------*/
+.last-line {
+padding: 3rem;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 2rem;
+}
+.f-container{
+background-color: rgba(13, 247, 72, 0.503);
+text-align: center;
+}
+.f-container h2 {
+font-size: 2.5rem;
+color:black;
+padding: 1rem 0;
+}
+.f-container p {
+font-size: 1.4rem;
+text-decoration: none;
+color:black;
+padding: 3px;
+display: block;
+}
+.f-container p:hover {
+transform: translateX(.5rem);
+transition: .5s ease;
+}
+.regi{
+    padding-top: 1.2rem;
+}
+.f-container i {
+padding-right: .5rem;
+color:black;
+}
+.f-container p {
+padding-bottom: 1rem;
+font-size: 1.5rem;
+color:black;
+}
+.f-container textarea {
+width: 90%;
+padding: 1rem;
+color: black;
+background:rgba(240, 255, 240, 0.599);
+border: .2rem solid rgb(31, 30, 30);
+}
+.foot-btn{
+width: 150px;
+height: 50px;
+background-color: blueviolet;
+color: #fbf9f9;
+cursor: pointer;
+margin-top: 2rem;
+border-radius: 8px;
+font-size: 1.5rem;
+}
+.foot-btn:hover{
+    transform:translateY(.5rem);
+}
+.f-container .social i {
+margin-top: 1rem;
+font-size: 2rem;
+background: black;
+color: white;
+border-radius: 1rem;
+padding: 1rem;
+margin-bottom: 2rem;
+}
+
+.f-container .social i:hover {
+transform: rotate(360deg);
+transition: 1s ease;
+}
+.last-line{
+background-image:url(/images/wedding-hall.jpg);
+background-size:cover ;
+background-repeat: no-repeat;
+}
